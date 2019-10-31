@@ -25,23 +25,23 @@
 // Convert it to celsius and output "NN°F is NN°C."
 
 
-document.getElementById("tft").innerHTML = "The Fortune Teller";
-var x = "derector";
-var y = "sweden";
+//document.getElementById("tft").innerHTML = "The Fortune Teller";
+var x = "Derector";
+var y = "Sweden";
 var n = 80000;
 var z = "Microsoft";
 var fortune = x+y+n+z;
 document.getElementById("info").innerHTML = fortune;
 
 
-document.getElementById("greet").innerHTML = "The Age Calculator";
+//document.getElementById("greet").innerHTML = "The Age Calculator";
 var x = 2019;
 var y = 1996;
 var sum = x - y;
 document.getElementById("result").innerHTML = sum;
 
 
-document.getElementById("tlsc").innerHTML = "The Lifetime Supply Calculator";
+//document.getElementById("tlsc").innerHTML = "The Lifetime Supply Calculator";
 var x = 23;
 var y = 100;
 var g = 2;
@@ -49,17 +49,22 @@ var snacks = (y-x)*g
 document.getElementById("snacks").innerHTML = snacks;
 
 
-document.getElementById("tg").innerHTML = "The Geometrizer";
+//document.getElementById("tg").innerHTML = "The Geometrizer";
 var rad = 40;
 var cer = 2*3.14;
 var circum = rad*cer
+var area = rad*rad*3.15;
 document.getElementById("circumference").innerHTML = circum;
+document.getElementById("area").innerHTML = area;
 
 
-document.getElementById("ttc").innerHTML = "The Temperature Converter C->F"
+
+//document.getElementById("ttc").innerHTML = "The Temperature Converter C->F"
 var cel = 35;
 var far = cel * 9/5 + 32;
-//var farenh = cel*
 document.getElementById("fahrenheight").innerHTML = far;
+var far = 95;
+var cel = (far-32)*5/9;
+document.getElementById("celsius").innerHTML = cel;
 
 
