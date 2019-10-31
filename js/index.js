@@ -24,17 +24,42 @@
 // Convert it to fahrenheit and output "NN°C is NN°F".  Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
 
-var x = teacher;
-var y = sweden;
-var n = 70000;
-var z = Canadian_Woolf;
-var p = x+y+n+z 
-document.getElementById("demo").innerHTML =
-"The value of z is: " + p;
+
+document.getElementById("tft").innerHTML = "The Fortune Teller";
+var x = "derector";
+var y = "sweden";
+var n = 80000;
+var z = "Microsoft";
+var fortune = x+y+n+z;
+document.getElementById("info").innerHTML = fortune;
 
 
-console.log("Hello World!");
+document.getElementById("greet").innerHTML = "The Age Calculator";
 var x = 2019;
 var y = 1996;
-var sum = x + y;
-console.log(sum);
+var sum = x - y;
+document.getElementById("result").innerHTML = sum;
+
+
+document.getElementById("tlsc").innerHTML = "The Lifetime Supply Calculator";
+var x = 23;
+var y = 100;
+var g = 2;
+var snacks = (y-x)*g
+document.getElementById("snacks").innerHTML = snacks;
+
+
+document.getElementById("tg").innerHTML = "The Geometrizer";
+var rad = 40;
+var cer = 2*3.14;
+var circum = rad*cer
+document.getElementById("circumference").innerHTML = circum;
+
+
+document.getElementById("ttc").innerHTML = "The Temperature Converter C->F"
+var cel = 35;
+var far = cel * 9/5 + 32;
+//var farenh = cel*
+document.getElementById("fahrenheight").innerHTML = far;
+
+
